@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Smythe&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+    <title>Jimmy's Diner</title>
+</head>
+<body>
+    <div class="container">
+        <header class="header-container">
+        <img src="../imges/ferks-guare-KEZdWfYD-ow-unsplash 1.png" alt="burger-header-background" class="header-image"> 
+        <div class="header-text">
+        <h1 class="title-header">Jimmy’s Diner</h1>
+        <h2 class="restaurant-tagline">The best burgers and pizzas in town.</h2>
+        </div>
+        </header>
+        <main>
+        <section>
+        
+            <div  id="menuItemDiv">
+            
+            
+        
+        <button id="btn"></button>
+    
+        </div>
+        <p id="thanksInput" class="thanks-order"></p>
+    
+        
+        <div id="order-item"></div> 
+
+        <button id="completeBtn" class="complete-order">Complete order</button>
+        <div style="height: 80px;"></div>
+
+        
+        <form id="paymentForm" class="payment-form">
+            <h1 class="card-title">Enter card details</h1>
+            <label for="fullName"></label>
+            <input type="text" id="fullName" class="input-card" name="fullName" placeholder="Enter Your Name" required>
+            
+            <label for="cardNumber"></label>
+            <input type="text" id="cardNumber" class="input-card"  name="cardNumber" placeholder="Enter Card Number" required maxlength="19">
+        
+            <label for="cvv"></label>
+            <input type="text" id="cvv" class="input-card"  name="cvv" placeholder="Enter CVV" required maxlength="3">
+        
+            <button type="submit" id="payBtn" class="input-card pay-btn">Pay</button>
+    
+        </form>
+
+        </section>
+        </main>
+    </div>
+<script src="script.js" type="module"></script>
+</body>
+</html>
